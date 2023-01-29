@@ -6,14 +6,14 @@ import NavBar from './navBar';
 
 const RouteSwitch = (props) => {
   return (
-    <BrowserRouter>
+    <HashRouter basename='/' >
       <NavBar number = {props.number}></NavBar>
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/products" element={<Products cart={props.cart} setCart={props.setCart}/>} />
         <Route path="/contactUs" element={<Contact />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 };
 
