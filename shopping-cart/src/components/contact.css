@@ -1,0 +1,18 @@
+.mainContact{
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.socialImage{
+    height: 100px;
+    margin-right: 60px;
+}
+
+.address{
+    margin-top: 200px;
+    font-size: 2rem;
+    font-weight: 800;
+}

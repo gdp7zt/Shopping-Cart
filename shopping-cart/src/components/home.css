@@ -1,0 +1,70 @@
+.homePageContainer{
+    height: 85vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.homePageContainer button{
+    background-color: black;
+    border: none;
+    border-radius: 30px;
+    width: 200px;
+    height: 60px;
+    color: white;
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.claim{
+    color: gray;
+    font-weight: 600;
+    letter-spacing: 0.2rem;
+    font-size: 1.5rem;
+}
+
+.statement{
+    margin-top: 20px;
+    color: black;
+    font-weight: 800;
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.leftSide{
+    margin-top: 100px;
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rightSide{
+    margin-top: 100px;
+}
+
+.footer > img{
+    width: 100%;
+    height: 40vh;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    z-index: -100;
+}
+
+.footer{
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer .gitHubImage{
+    margin-left: 10px;
+}
+  
+.footer h4{
+    display: flex;
+    align-items: center;
+}
